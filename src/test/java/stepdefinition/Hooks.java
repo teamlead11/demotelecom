@@ -16,6 +16,7 @@ public class Hooks {
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/telecom/index.html");
+		System.out.println("before method");
 
 	}
 

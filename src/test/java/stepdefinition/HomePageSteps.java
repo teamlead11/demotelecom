@@ -11,6 +11,7 @@ public class HomePageSteps {
 	public void x() {
 		HomePage home = new HomePage();
 		home.getLnk_addCustomer().click();
+		System.out.println("background");
 
 	}
 	
